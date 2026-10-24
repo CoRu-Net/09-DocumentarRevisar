@@ -8,9 +8,9 @@ import {
 } from './biblioteca.js';
 
 
-console.log(f(3));
-console.log(f(80));
-console.log(titulo('Rayuela', 'Julio Cortázar'));
-console.log(puede(2, false));
-console.log(puede(3, false));
-console.log(cuenta(['disponible', 'prestado', 'disponible', 'reparación']));
+console.log(calcularMulta(3));
+console.log(calcularMulta(80));
+console.log(formatearTitulo('Rayuela', 'Julio Cortázar'));
+console.log(puedePedirPrestamo(2, false));
+console.log(puedePedirPrestamo(3, false));
+console.log(contarDisponibles(['disponible', 'prestado', 'disponible', 'reparación']));
