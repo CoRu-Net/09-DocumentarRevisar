@@ -7,7 +7,6 @@ import {
   contarDisponibles,
 } from './biblioteca.js';
 
-
 console.log(calcularMulta(3));
 console.log(calcularMulta(80));
 console.log(formatearTitulo('Rayuela', 'Julio Cortázar'));
